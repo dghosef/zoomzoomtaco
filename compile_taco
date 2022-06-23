@@ -1,0 +1,6 @@
+rm -rf testres* && \
+rm -rf random* && \
+echo "Building taco" && \
+docker run -v `pwd`/:/home/u/taco pochivm-build:latest bash -c 'cd taco/ && cmake . -DBUILD_FLAVOR=RELEASE -GNinja && ninja && ./bin/taco-tensor_times_vector ' &&\
+echo "\nDoublecheck these cksums" && \
+cksum testres*

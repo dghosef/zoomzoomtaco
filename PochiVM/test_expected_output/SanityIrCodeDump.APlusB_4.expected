@@ -1,0 +1,36 @@
+; ModuleID = 'test'
+source_filename = "test"
+
+declare dso_local i32 @__gxx_personality_v0(...)
+
+define i32 @a_plus_b(i32 %_a_0, i32 %_b_1) personality i32 (...)* @__gxx_personality_v0 {
+entry:
+  %a_0 = alloca i32
+  %b_1 = alloca i32
+  br label %body
+
+body:                                             ; preds = %entry
+  store i32 %_a_0, i32* %a_0
+  store i32 %_b_1, i32* %b_1
+  %0 = load i32, i32* %a_0
+  %if0 = icmp slt i32 %0, 0
+  br i1 %if0, label %then0, label %else0
+
+then0:                                            ; preds = %body
+  %1 = load i32, i32* %b_1
+  %2 = load i32, i32* %a_0
+  %3 = sub i32 %1, %2
+  ret i32 %3
+
+else0:                                            ; preds = %body
+  %4 = load i32, i32* %a_0
+  %5 = mul i32 %4, 2
+  store i32 %5, i32* %a_0
+  br label %after_if0
+
+after_if0:                                        ; preds = %else0
+  %6 = load i32, i32* %a_0
+  %7 = load i32, i32* %b_1
+  %8 = add i32 %6, %7
+  ret i32 %8
+}
