@@ -1,0 +1,164 @@
+"9ca93f8d9ac4cbc28ac7884db97161cbf6a9113f"
+#s(undo-tree [nil ([nil (#6=[nil nil ((nil rear-nonsticky nil 1460 . 1461) (nil fontified nil 1 . 1461) (1 . 1461) 6340 (#("Block
+  Block
+    Decl(Var(pwtk1))
+    Decl(Var(A652))
+    Decl(Var(endbound_83))
+    Decl(Var(pwtk1_dimension4))
+    Decl(Var(pwtk2_pos_p5))
+    Decl(Var(pwtk2_pos6))
+    Decl(Var(i1017))
+    Decl(Var(ti102A98_val8))
+    Decl(Var(endbound_79))
+    Decl(Var(pwtk2_crd_p10))
+    Decl(Var(pwtk2_crd11))
+    Decl(Var(pwtk_vals_p12))
+    Decl(Var(pwtk_vals13))
+    Decl(Var(i102pwtk14))
+    Decl(Var(i10215))
+    Decl(Var(A65_vals16))
+    Decl(Var(A9817))
+    Decl(Var(endbound_8_018))
+    Decl(Var(pwtk2_pos_p19))
+    Decl(Var(i101_020))
+    Decl(Var(ti102A98_val_021))
+    Decl(Var(endbound_7_022))
+    Decl(Var(pwtk2_crd_p23))
+    Decl(Var(pwtk_vals_p24))
+    Decl(Var(i102pwtk_025))
+    Decl(Var(i102_026))
+    Decl(Var(A98_vals27))
+    Decl(Var(pwtk28))
+    Decl(Var(A6529))
+    Decl(Var(A9830))
+    Decl(Var(endbound_831))
+    Decl(Var(pwtk1_dimension32))
+    Decl(Var(pwtk2_pos_p33))
+    Decl(Var(pwtk2_pos34))
+    Decl(Var(i10135))
+    Decl(Var(ti102A98_val36))
+    Decl(Var(endbound_737))
+    Decl(Var(pwtk2_crd_p38))
+    Decl(Var(pwtk2_crd39))
+    Decl(Var(pwtk_vals_p40))
+    Decl(Var(pwtk_vals41))
+    Decl(Var(i102pwtk42))
+    Decl(Var(i10243))
+    Decl(Var(A65_vals44))
+    Decl(Var(A98_vals45))
+
+  Block
+    Block
+
+    (Var(A9817)) = ReinterpretCast<void*->taco_tensor_t*>(*(*(Var(param0))))
+    (Var(pwtk1)) = ReinterpretCast<void*->taco_tensor_t*>(*(*(Var(param0))[Literal(1)]))
+    (Var(A652)) = ReinterpretCast<void*->taco_tensor_t*>(*(*(Var(param0))[Literal(2)]))
+    Block
+      (Var(A98_vals27)) = ReinterpretCast<uint8_t*->double*>(*(call(_ZN7PochiVM16ReflectionHelper30member_object_accessor_wrapperIXadL_ZN13taco_tensor_t4valsEEEE9wrapperFnEPS2_, *(Var(A9817)))))
+      (Var(pwtk1_dimension4)) = StaticCast<int32_t>(*(*(call(_ZN7PochiVM16ReflectionHelper30member_object_accessor_wrapperIXadL_ZN13taco_tensor_t10dimensionsEEEE9wrapperFnEPS2_, *(Var(pwtk1))))[Literal(0)]))
+      (Var(pwtk2_pos6)) = ReinterpretCast<uint8_t*->int32_t*>(*(*(*(call(_ZN7PochiVM16ReflectionHelper30member_object_accessor_wrapperIXadL_ZN13taco_tensor_t7indicesEEEE9wrapperFnEPS2_, *(Var(pwtk1))))[Literal(1)])))
+      (Var(pwtk2_crd11)) = ReinterpretCast<uint8_t*->int32_t*>(*(*(*(call(_ZN7PochiVM16ReflectionHelper30member_object_accessor_wrapperIXadL_ZN13taco_tensor_t7indicesEEEE9wrapperFnEPS2_, *(Var(pwtk1))))[Literal(1)])[Literal(1)]))
+      (Var(pwtk_vals13)) = ReinterpretCast<uint8_t*->double*>(*(call(_ZN7PochiVM16ReflectionHelper30member_object_accessor_wrapperIXadL_ZN13taco_tensor_t4valsEEEE9wrapperFnEPS2_, *(Var(pwtk1)))))
+      (Var(A65_vals16)) = ReinterpretCast<uint8_t*->double*>(*(call(_ZN7PochiVM16ReflectionHelper30member_object_accessor_wrapperIXadL_ZN13taco_tensor_t4valsEEEE9wrapperFnEPS2_, *(Var(A652)))))
+
+    Block
+      Block
+        Block
+          Block
+            (Var(endbound_83)) = *(Var(pwtk1_dimension4))
+            Block
+              Block
+                Block
+                  Block
+                    (Var(pwtk2_pos_p5)) = *(Var(pwtk2_pos6))
+
+                  Block
+                    For
+                      Init: 
+                        Block
+                          (Var(i1017)) = Literal(0)
+
+                      Cond: 
+                        *(Var(i1017)) < *(Var(endbound_83))
+                      Increment: 
+                        Block
+                          (Var(i1017)) = *(Var(i1017)) + StaticCast<int32_t>(Literal(1))
+
+                      Body: 
+                        Scope
+                          Block
+                            Block
+                              Block
+                                Block
+                                  Block
+                                    (var(ti102A98_val8)) = Literal(0)
+
+                                  Block
+                                    Block
+                                      Block
+                                        (Var(endbound_79)) = *(*(Var(pwtk2_pos6))[*(Var(i1017)) + Literal(1)])
+                                        Block
+                                          Block
+                                            Block
+                                              Block
+                                                (Var(pwtk2_crd_p10)) = *(Var(pwtk2_crd11))[*(*(Var(pwtk2_pos_p5))[Literal(0)])]
+                                                (Var(pwtk_vals_p12)) = *(Var(pwtk_vals13))[*(*(Var(pwtk2_pos_p5))[Literal(0)])]
+
+                                              Block
+                                                For
+                                                  Init: 
+                                                    Block
+                                                      (Var(i102pwtk14)) = *(*(Var(pwtk2_pos_p5))[Literal(0)])
+
+                                                  Cond: 
+                                                    *(Var(i102pwtk14)) < *(Var(endbound_79))
+                                                  Increment: 
+                                                    Block
+                                                      (Var(i102pwtk14)) = *(Var(i102pwtk14)) + StaticCast<int32_t>(Literal(1))
+
+                                                  Body: 
+                                                    Scope
+                                                      Block
+                                                        Block
+                                                          (Var(i10215)) = *(*(Var(pwtk2_crd_p10))[Literal(0)])
+                                                          Block
+                                                            Block
+                                                              (Var(ti102A98_val8)) = *(Var(ti102A98_val8)) + *(*(Var(pwtk_vals_p12))[Literal(0)]) * *(*(Var(A65_vals16))[*(Var(i10215))])
+
+
+
+                                                        Block
+                                                          (Var(pwtk2_crd_p10)) = *(Var(pwtk2_crd_p10))[Literal(1)]
+                                                          (Var(pwtk_vals_p12)) = *(Var(pwtk_vals_p12))[Literal(1)]
+
+
+
+
+
+
+
+
+
+
+
+                                  (*(Var(A98_vals27))[*(Var(i1017))]) = *(Var(ti102A98_val8))
+
+
+
+                            Block
+                              (Var(pwtk2_pos_p5)) = *(Var(pwtk2_pos_p5))[Literal(1)]
+
+
+
+
+
+
+
+
+
+
+
+
+    return Literal(0)
+
+" 0 8 (fontified t) 8 12 (fontified t face font-lock-type-face) 12 13 (fontified t c-type c-decl-id-start face font-lock-type-face) 13 18 (fontified t) 18 22 (fontified t face font-lock-function-name-face) 22 23 (fontified t c-type c-decl-arg-start) 23 26 (fontified t face font-lock-type-face) 26 27 (fontified t) 27 32 (fontified t face font-lock-variable-name-face) 32 500 (fontified t) 500 509 (fontified t) 509 1009 (fontified t) 1009 1021 (fontified t) 1021 1209 (fontified t) 1209 1213 (fontified t face font-lock-type-face) 1213 1214 (fontified t c-type c-decl-id-start face font-lock-type-face) 1214 1219 (fontified t) 1219 1224 (fontified t face font-lock-function-name-face) 1224 1230 (fontified t) 1230 1231 (fontified t c-type c-decl-arg-start) 1231 1234 (fontified t face font-lock-type-face) 1234 1235 (fontified t) 1235 1240 (fontified t face font-lock-variable-name-face) 1240 1260 (fontified t) 1260 1261 (category c-<-as-paren-syntax fontified t) 1261 1265 (fontified t face font-lock-type-face) 1265 1282 (fontified t) 1282 1283 (category c->-as-paren-syntax fontified t) 1283 1337 (fontified t) 1337 1338 (category c-<-as-paren-syntax fontified t) 1338 1342 (fontified t face font-lock-type-face) 1342 1359 (fontified t) 1359 1360 (category c->-as-paren-syntax fontified t) 1360 1425 (fontified t) 1425 1426 (category c-<-as-paren-syntax fontified t) 1426 1430 (fontified t face font-lock-type-face) 1430 1447 (fontified t) 1447 1448 (category c->-as-paren-syntax fontified t) 1448 1484 (fontified t) 1484 1488 (fontified t face font-lock-type-face) 1488 1489 (fontified t face font-lock-type-face) 1489 1497 (fontified t) 1497 1500 (fontified t) 1500 1521 (fontified t) 1521 1531 (fontified t) 1531 1532 (category c-<-as-paren-syntax fontified t) 1532 1539 (fontified t face font-lock-type-face) 1539 1542 (fontified t) 1542 1548 (fontified t face font-lock-type-face) 1548 1549 (fontified t) 1549 1550 (category c->-as-paren-syntax fontified t) 1550 1582 (fontified t) 1582 1684 (fontified t face (whitespace-line)) 1684 1727 (fontified t) 1727 1728 (category c-<-as-paren-syntax fontified t) 1728 1735 (fontified t face font-lock-type-face) 1735 1736 (category c->-as-paren-syntax fontified t) 1736 1777 (fontified t) 1777 1892 (fontified t face (whitespace-line)) 1892 1934 (fontified t) 1934 1935 (category c-<-as-paren-syntax fontified t) 1935 1942 (fontified t face font-lock-type-face) 1942 1953 (fontified t) 1953 1954 (category c->-as-paren-syntax fontified t) 1954 1985 (fontified t) 1985 2109 (fontified t face (whitespace-line)) 2109 2152 (fontified t) 2152 2153 (category c-<-as-paren-syntax fontified t) 2153 2160 (fontified t face font-lock-type-face) 2160 2171 (fontified t) 2171 2172 (category c->-as-paren-syntax fontified t) 2172 2184 (fontified t) 2184 2202 (fontified t) 2202 2296 (fontified t face #1=(whitespace-line)) 2296 2339 (fontified t face #1#) 2339 2382 (fontified t) 2382 2383 (category c-<-as-paren-syntax fontified t) 2383 2390 (fontified t face font-lock-type-face) 2390 2393 (fontified t) 2393 2399 (fontified t face font-lock-type-face) 2399 2400 (fontified t) 2400 2401 (category c->-as-paren-syntax fontified t) 2401 2432 (fontified t) 2432 2535 (fontified t face (whitespace-line)) 2535 2577 (fontified t) 2577 2578 (category c-<-as-paren-syntax fontified t) 2578 2585 (fontified t face font-lock-type-face) 2585 2588 (fontified t) 2588 2594 (fontified t face font-lock-type-face) 2594 2595 (fontified t) 2595 2596 (category c->-as-paren-syntax fontified t) 2596 2628 (fontified t) 2628 2729 (fontified t face (whitespace-line)) 2729 2735 (fontified t) 2735 2740 (fontified t face font-lock-type-face) 2740 2747 (fontified t) 2747 2752 (fontified t face font-lock-type-face) 2752 2761 (fontified t) 2761 2765 (fontified t face font-lock-type-face) 2765 2766 (fontified t c-type c-decl-id-start face font-lock-type-face) 2766 2777 (fontified t) 2777 2782 (fontified t face font-lock-function-name-face) 2782 2795 (fontified t) 2795 2796 (fontified t) 2796 2799 (fontified t) 2799 2800 (fontified t) 2800 2811 (fontified t) 2811 2813 (fontified t) 2813 2818 (fontified t) 2818 2821 (fontified t face font-lock-type-face) 2821 2853 (fontified t) 2853 2858 (fontified t face font-lock-type-face) 2858 2873 (fontified t) 2873 2878 (fontified t face font-lock-type-face) 2878 2895 (fontified t) 2895 2899 (fontified t face font-lock-type-face) 2899 2900 (fontified t c-type c-decl-id-start face font-lock-type-face) 2900 2919 (fontified t) 2919 2924 (fontified t face font-lock-function-name-face) 2924 2945 (fontified t) 2945 2946 (fontified t c-type c-decl-arg-start) 2946 2949 (fontified t face font-lock-type-face) 2949 2950 (fontified t) 2950 2962 (fontified t face font-lock-variable-name-face) 2962 2969 (fontified t) 2969 2972 (fontified t face font-lock-type-face) 2972 3005 (fontified t) 3005 3010 (fontified t face font-lock-type-face) 3010 3031 (fontified t) 3031 3033 (fontified t face font-lock-type-face) 3033 3034 (fontified t c-type c-decl-id-start face font-lock-type-face) 3034 3057 (fontified t) 3057 3061 (fontified t face font-lock-function-name-face) 3061 3176 (fontified t) 3176 3218 (fontified t) 3218 3221 (fontified t face font-lock-type-face) 3221 3313 (fontified t) 3313 3338 (fontified t) 3338 3343 (fontified t) 3343 3346 (fontified t face font-lock-type-face) 3346 3367 (fontified t) 3367 3368 (category c-<-as-paren-syntax fontified t) 3368 3375 (fontified t face font-lock-type-face) 3375 3376 (category c->-as-paren-syntax fontified t) 3376 3377 (fontified t) 3377 3384 (fontified t face font-lock-type-face) 3384 3515 (fontified t) 3515 3551 (fontified t) 3551 3666 (fontified t) 3666 3667 (fontified t) 3667 3685 (fontified t) 3685 3734 (fontified t) 3734 3739 (fontified t face font-lock-type-face) 3739 3776 (fontified t) 3776 3780 (fontified t face font-lock-type-face) 3780 3781 (fontified t c-type c-decl-id-start face font-lock-type-face) 3781 3820 (fontified t) 3820 3825 (fontified t face font-lock-function-name-face) 3825 3826 (fontified t) 3826 3866 (fontified t) 3866 3867 (fontified t c-type c-decl-arg-start) 3867 3870 (fontified t face font-lock-type-face) 3870 3871 (fontified t) 3871 3882 (fontified t face font-lock-variable-name-face) 3882 3910 (fontified t) 3910 3913 (fontified t face font-lock-type-face) 3913 3918 (fontified t) 3918 3936 (fontified t face (whitespace-line)) 3936 3977 (fontified t) 3977 3982 (fontified t face font-lock-type-face) 3982 4025 (fontified t) 4025 4030 (fontified t face font-lock-type-face) 4030 4051 (fontified t) 4051 4075 (fontified t) 4075 4079 (face font-lock-type-face fontified t) 4079 4080 (c-type c-decl-id-start face font-lock-type-face fontified t) 4080 4127 (fontified t) 4127 4132 (face font-lock-function-name-face fontified t) 4132 4181 (fontified t) 4181 4182 (fontified t) 4182 4185 (fontified t) 4185 4186 (fontified t) 4186 4199 (fontified t) 4199 4201 (fontified t) 4201 4225 (fontified t) 4225 4260 (fontified t face (whitespace-line)) 4260 4326 (fontified t) 4326 4328 (fontified t) 4328 4353 (fontified t) 4353 4388 (fontified t face (whitespace-line)) 4388 4701 (fontified t) 4701 4704 (fontified t face #2=(whitespace-line)) 4704 4718 (fontified t face #2#) 4718 4828 (fontified t) 4828 4852 (fontified t) 4852 4855 (fontified t face font-lock-type-face) 4855 4870 (fontified t) 4870 5066 (fontified t) 5066 5069 (fontified t face font-lock-type-face) 5069 5082 (fontified t) 5082 5095 (fontified t face #3=(whitespace-line)) 5095 5096 (category c-<-as-paren-syntax fontified t face #3#) 5096 5103 (fontified t face (whitespace-line font-lock-type-face)) 5103 5104 (category c->-as-paren-syntax fontified t face #4=(whitespace-line)) 5104 5105 (fontified t face #4#) 5105 5112 (fontified t face (whitespace-line font-lock-type-face)) 5112 5116 (fontified t face (whitespace-line)) 5116 5204 (fontified t) 5204 5233 (fontified t) 5233 5370 (fontified t) 5370 5426 (fontified t) 5426 5447 (fontified t) 5447 5465 (fontified t face (whitespace-line)) 5465 5524 (fontified t) 5524 5528 (fontified t face font-lock-type-face) 5528 5529 (fontified t c-type c-decl-id-start face font-lock-type-face) 5529 5590 (fontified t) 5590 5595 (fontified t face font-lock-function-name-face) 5595 5658 (fontified t) 5658 5659 (fontified t) 5659 5662 (fontified t) 5662 5663 (fontified t) 5663 5676 (fontified t) 5676 5683 (fontified t) 5683 5686 (fontified t face font-lock-type-face) 5686 5688 (fontified t) 5688 5733 (fontified t face #5=(whitespace-line)) 5733 5740 (fontified t face #5#) 5740 5781 (fontified t face #5#) 5781 5841 (fontified t) 5841 5845 (fontified t face font-lock-type-face) 5845 5846 (fontified t c-type c-decl-id-start face font-lock-type-face) 5846 5906 (fontified t) 5906 5909 (fontified t face font-lock-variable-name-face) 5909 5926 (fontified t) 5926 5939 (fontified t) 5939 5961 (fontified t face (whitespace-line)) 5961 5962 (fontified t) 5962 6054 (fontified t) 6054 6076 (fontified t face (whitespace-line)) 6076 6162 (fontified t) 6162 6165 (fontified t face font-lock-type-face) 6165 6180 (fontified t) 6180 6181 (fontified t face (whitespace-line)) 6181 6213 (fontified t) 6213 6217 (fontified t face font-lock-type-face) 6217 6218 (fontified t face font-lock-type-face) 6218 6240 (fontified t) 6240 6250 (fontified t) 6250 6253 (fontified t) 6253 6268 (fontified t) 6268 6320 (fontified t) 6320 6326 (fontified t face font-lock-keyword-face) 6326 6338 (fontified t) 6338 6339 (fontified t)) . 1) (undo-tree-id0 . -6339) (undo-tree-id1 . -6339) (undo-tree-id2 . -6) (undo-tree-id3 . -6) (undo-tree-id4 . -6) (undo-tree-id5 . -6) (undo-tree-id6 . -5233) (undo-tree-id7 . -3937) (undo-tree-id8 . -4719) (undo-tree-id9 . -6339) (undo-tree-id10 . -3299) (undo-tree-id11 . -3298) (undo-tree-id12 . -6339) (undo-tree-id13 . -6339) 6340) nil (25277 7208 157880 987000) 0 nil]) ((3630 . 3670) (#("                                    (Var" 0 40 (fontified t)) . 3630) (t 25276 62936 859129 250000)) nil (25277 7208 157885 96000) 0 nil]) nil nil (25277 7208 157886 676000) 0 nil] #6# 6563 2 nil)

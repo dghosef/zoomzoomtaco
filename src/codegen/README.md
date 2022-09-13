@@ -1,0 +1,1 @@
+This directory contains both the current version of the backend and an old version of the Pochi backend that existed before I knew how to use Pochi VT types and instead tried replicating the behavior with std::variant. The current version is in the `compile_to_pochivt*` files.

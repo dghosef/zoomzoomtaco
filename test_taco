@@ -1,0 +1,5 @@
+# rm -rf random* && \
+rm -rf testres* && \
+docker run -v `pwd`/:/home/u/taco pochivm-build:latest bash -c 'cd taco/&& ./bin/taco-tensor_times_vector 4000' &&\
+echo "\nDoublecheck these cksums - consecutive cksums should be identical" && \
+cksum testres*

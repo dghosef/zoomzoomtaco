@@ -1,0 +1,15 @@
+; ModuleID = 'test'
+source_filename = "test"
+
+%"class.std::__cxx11::basic_string" = type opaque
+
+declare dso_local i32 @__gxx_personality_v0(...)
+
+; Function Attrs: norecurse nounwind readnone
+define i8* @testfn(%"class.std::__cxx11::basic_string"* readnone %_param_0) local_unnamed_addr #0 personality i32 (...)* @__gxx_personality_v0 {
+entry:
+  %0 = bitcast %"class.std::__cxx11::basic_string"* %_param_0 to i8*
+  ret i8* %0
+}
+
+attributes #0 = { norecurse nounwind readnone }

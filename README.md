@@ -1,0 +1,1 @@
+To build, run `./compile_all`. To test, run `./test_taco`. Test code is located in the `./apps/tensor_times_vector` directory and the actual backend is in the `src/codegen` directory. To see the generated C code, uncomment line 143 in `./src/codegen/module.cpp`
